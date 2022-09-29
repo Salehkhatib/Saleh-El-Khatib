@@ -33,7 +33,7 @@
 }
 
 .Badge {
-  color: rebeccapurple;
+  color: rgb(255, 236, 235);
 }
 
 article + article {
@@ -94,4 +94,17 @@ main > * {
 }
 .main > *:first-child {
   border-top: none;
+}
+::selection {
+  background-color: black;
+  color: white;
+}
+p::first-letter {
+  font-size: 150%;
+}
+li::first-letter {
+  font-size: 130%;
+}
+h1::after {
+  content: '🤓' ;
 }
