@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
   }
   html {
     font-family: 'Courier New', Courier, monospace;
@@ -10,7 +9,7 @@
     
   }
   header  main{
-    padding: 16px;
+    padding: 20px;
     
     
   }
@@ -52,7 +51,7 @@ p,p,p {
 h1 {
   font-family: cursive;
 }
-h2,h3,h3,h3 {
+h2,h3, {
   font-family: monospace;
   font-size: larger;
 }
@@ -62,20 +61,20 @@ h2,h3,h3,h3 {
   text-align: center;
   position: relative;
   background-image: linear-gradient(
-    rgba(255, 182, 149, 0.689),
-    rgba(255, 255, 255, 0.294)
+  rgb(204, 164, 164)
+  rgb(134, 126, 126)
   );
 }
 .headline {
   font-family: sans-serif;
 }
-.p,p,p {
+.p,{
   font-family: cursive;
 }
 li:first-child,:last-child,:only-child {
   background-color: antiquewhite;
   background-image: linear-gradient(
-    rgba(255, 200, 160, 0.690),
+  rgb(229, 146, 146)(255, 200, 160, 0.690),
   )
 }
 .Badge {
@@ -85,5 +84,5 @@ li:first-child,:last-child,:only-child {
   padding: 0.8rem;
   border-radius: 0.4rem;
   color: black;
-  background-color: rgb(255, 200, 160);
+  background-color: rgb(183, 117, 70);
 }
