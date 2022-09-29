@@ -86,3 +86,12 @@ li:first-child,:last-child,:only-child {
   color: black;
   background-color: rgb(183, 117, 70);
 }
+.main > * + * {
+  margin-top: 48px;
+}
+main > * {
+  border-top: 2px solid gray;
+}
+.main > *:first-child {
+  border-top: none;
+}
