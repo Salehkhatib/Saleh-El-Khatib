@@ -7,9 +7,12 @@
   }
   header {
     background-color: antiquewhite;
+    
   }
   header  main{
     padding: 16px;
+    
+    
   }
   body {
     box-sizing:0px;
@@ -18,13 +21,12 @@
     text-align: center;
   }
   
-  h1,
-  h2,
-  h3 {
-  color: darkgray;
-}
+
 . header {
-    padding: 48px 16px;
+  box-sizing: border-box;  
+  padding: 48px 16px;
+  border: 15px solid goldenrod
+
 }
 . main {
     max-width: 800px;
@@ -41,14 +43,45 @@ li {
 article + article {
   margin-top: 40px;
 }
-li + li {
-  margin-top: 20px;
+.li,li {
+margin: 10px;
+padding: 10px;
+content: normal;
 }
 
-a:hover {
-background-color: azure;
-}
 ul:hover {
-  background-color: aquamarine;
+  background-color: ;
 }
 
+a:visited {
+  background-color: blue;
+}
+
+
+
+p,p,p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+  font-family: cursive;
+}
+h2,h3,h3,h3 {
+  font-family: monospace;
+  font-size: larger;
+}
+.header {
+  padding: 4rem;
+  padding-top: 4rem;
+  text-align: center;
+  position: relative;
+  background-image: linear-gradient(
+    rgba(255, 182, 149, 0.689),
+    rgba(255, 255, 255, 0.294)
+  );
+}
+.headline {
+  font-family: sans-serif;
+}
+.p,p,p {
+  font-family: cursive;
+}
