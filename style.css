@@ -21,7 +21,7 @@
   h1,
   h2,
   h3 {
-  color: brown;
+  color: darkgray;
 }
 . header {
     padding: 48px 16px;
@@ -34,3 +34,6 @@ li {
   color: darkblue;
 }
 
+.hide_me {
+  color: blue;
+}
