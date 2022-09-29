@@ -32,31 +32,18 @@
     max-width: 800px;
     margin: 0 auto;
 }
-li {
-  color: darkblue;
-}
 
-.hide_me {
-  color: blue;
+.Badge {
+  color: rebeccapurple;
 }
 
 article + article {
   margin-top: 40px;
 }
-.li,li {
+.li,li{
 margin: 10px;
 padding: 10px;
-content: normal;
 }
-
-ul:hover {
-  background-color: ;
-}
-
-a:visited {
-  background-color: blue;
-}
-
 
 
 p,p,p {
@@ -84,4 +71,10 @@ h2,h3,h3,h3 {
 }
 .p,p,p {
   font-family: cursive;
+}
+li:first-child,:last-child,:only-child {
+  background-color: antiquewhite;
+  background-image: linear-gradient(
+    rgba(255, 199, 160, 0.690),
+  )
 }
