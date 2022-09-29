@@ -37,3 +37,18 @@ li {
 .hide_me {
   color: blue;
 }
+
+article + article {
+  margin-top: 40px;
+}
+li + li {
+  margin-top: 20px;
+}
+
+a:hover {
+background-color: azure;
+}
+ul:hover {
+  background-color: aquamarine;
+}
+
