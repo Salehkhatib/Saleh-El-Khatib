@@ -8,18 +8,19 @@
   header {
     background-color: antiquewhite;
   }
+  header  main{
+    padding: 16px;
+  }
   body {
     box-sizing:0px;
   }
   header  {
     text-align: center;
   }
-  header  main{
-    padding: 16px;
-  }
+  
   h1,
-h2,
-h3 {
+  h2,
+  h3 {
   color: brown;
 }
 . header {
@@ -28,4 +29,7 @@ h3 {
 . main {
     max-width: 800px;
     margin: 0 auto;
+}
+li {
+  color: darkblue;
 }
