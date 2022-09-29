@@ -75,6 +75,6 @@ h2,h3,h3,h3 {
 li:first-child,:last-child,:only-child {
   background-color: antiquewhite;
   background-image: linear-gradient(
-    rgba(255, 199, 160, 0.690),
+    rgba(255, 200, 160, 0.690),
   )
 }
