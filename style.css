@@ -36,7 +36,7 @@
   color: rgb(255, 236, 235);
 }
 
-article + article {
+article + article + section {
   margin-top: 40px;
 }
 .li,li{
@@ -46,7 +46,7 @@ padding: 10px;
 
 
 p,p,p {
-  font-family: cursive;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h1 {
   font-family: cursive;
@@ -69,7 +69,7 @@ h2,h3, {
   font-family: sans-serif;
 }
 .p,{
-  font-family: cursive;
+  font-family::content 
 }
 li:first-child,:last-child,:only-child {
   background-color: antiquewhite;
@@ -84,7 +84,7 @@ li:first-child,:last-child,:only-child {
   padding: 0.8rem;
   border-radius: 0.4rem;
   color: black;
-  background-color: rgb(183, 117, 70);
+  background-color: rgb(213, 197, 185);
 }
 .main > * + * {
   margin-top: 48px;
