@@ -6,24 +6,27 @@
 }
 
 * {
-    font-family: "Abyssinica SIL", sans-serif;
+    font-family: monospace;
     font-size: 20px;
 }
 
 h1 {
-    font-family: "Alkalami", sans-serif;
+    font-family: cursive;
     font-size: 40px;
+}
+h1::after {
+  content: '💻' ;
 }
 
 h2,
 h3 {
-    font-family: "Alkalami", sans-serif;
+    font-family: cursive;
     font-size: 30px;
-    color: #00008B;
+    color: #040413;
 }
 
 h4 {
-    font-family: "Alkalami", sans-serif;
+    font-family: cursive;
     font-size: 20px;
     color: #00008B;
 }
@@ -31,7 +34,9 @@ h4 {
 body {
     margin: 0px;
     background: rgb(238,197,174);
-background: radial-gradient(circle, rgba(238,197,174,1) 40%, rgba(227,178,106,0.7833508403361344) 94%);
+    background: rgb(34,193,195);
+    background: rgb(125,138,144);
+background: radial-gradient(circle, rgba(125,138,144,1) 0%, rgba(164,159,153,0.5977337110481586) 100%);
 }
 
 .header {
@@ -50,6 +55,10 @@ background: radial-gradient(circle, rgba(238,197,174,1) 40%, rgba(227,178,106,0.
     margin: 0 auto;
     padding: 16px;
 }
+main > * {
+  border-top: 2px solid rgb(243, 234, 234);
+}
+
 
 .time {
     color: #0000CD;
@@ -61,4 +70,14 @@ background: radial-gradient(circle, rgba(238,197,174,1) 40%, rgba(227,178,106,0.
 
 .nav-link:hover {
     color: rgb(5, 216, 239);
+}
+p::first-letter {
+  font-size: 150%;
+}
+li::first-letter {
+  font-size: 130%;
+}
+::selection {
+  background-color: black;
+  color: white;
 }
