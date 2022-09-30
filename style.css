@@ -58,6 +58,9 @@ background: radial-gradient(circle, rgba(125,138,144,1) 0%, rgba(164,159,153,0.5
 main > * {
   border-top: 2px solid rgb(243, 234, 234);
 }
+.main > * + * {
+  margin-top: 100px;
+}
 
 
 .time {
@@ -70,6 +73,15 @@ main > * {
 
 .nav-link:hover {
     color: rgb(5, 216, 239);
+}
+.nav-link:active {
+  color: white;
+  background-color: black;
+}
+
+.nav-link + .nav-link {
+  margin-left: 16px;
+
 }
 p::first-letter {
   font-size: 150%;
