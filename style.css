@@ -17,7 +17,15 @@ h1 {
 h1::after {
   content: '💻' ;
 }
-
+.badge {
+  position: absolute;
+  top: 0.3rem;
+  right: 0.5rem;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  color: black;
+  background-color: rgba(121, 122, 122, 0);
+}
 h2,
 h3 {
     font-family: cursive;
@@ -36,7 +44,9 @@ body {
     background: rgb(238,197,174);
     background: rgb(34,193,195);
     background: rgb(125,138,144);
-background: radial-gradient(circle, rgba(125,138,144,1) 0%, rgba(164,159,153,0.5977337110481586) 100%);
+    background: radial-gradient(circle,
+                rgba(125,138,144,1) 0%,
+                rgba(164,159,153,0.5977337110481586) 100%);
 }
 
 .header {
@@ -93,3 +103,4 @@ li::first-letter {
   background-color: black;
   color: white;
 }
+
