@@ -32,9 +32,7 @@ h1::after {
   color: black;
   background-color: rgba(121, 122, 122, 0);
 }
-.profile {
-  border-top: solid rgb(135, 53, 53);;
-}
+
 h2,
 h3 {
     font-family: cursive;
@@ -64,6 +62,7 @@ body {
     font-size: 20px;
     border-top: solid rgb(135, 53, 53);
     }
+ 
  
   
 
