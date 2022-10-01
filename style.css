@@ -12,6 +12,7 @@
 .headline {
   border-top: solid rgb(58, 64, 187);
   padding: 10px;
+  font-size: larger;
 }
 h1 {
     font-family: cursive;
