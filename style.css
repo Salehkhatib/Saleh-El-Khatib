@@ -102,8 +102,8 @@ main > * {
 
 .nav-link + .nav-link {
   margin-left: 16px;
-
 }
+
 p::first-letter {
   font-size: 150%;
 }
@@ -111,6 +111,7 @@ p::first-letter {
 li::first-letter {
   font-size: 130%;
 }
+
 ::selection {
   background-color: black;
   color: white;
