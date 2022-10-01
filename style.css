@@ -11,8 +11,9 @@
 }
 .headline {
   border-top: solid rgb(58, 64, 187);
-  font-size: larger;
-  border-inline: groove;
+  border-bottom-style: unset;
+  font-size: x-large;
+  font-family: Georgia, 'Times New Roman';
 }
 h1 {
     font-family: cursive;
