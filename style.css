@@ -78,9 +78,10 @@ body {
 }
 main > * {
   border-top: 2px dashed rgb(58, 64, 187);
+
 }
 .main > * + * {
-  margin-top: 100px;
+  margin-top: 10px;
 }
 
 
