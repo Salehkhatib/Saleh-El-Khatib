@@ -97,7 +97,7 @@ main > * {
     color: rgb(5, 216, 239);
 }
 .nav-link:active {
-  color: white;
+  color: rgb(21, 34, 218);
   background-color: black;
 }
 
@@ -114,7 +114,7 @@ li::first-letter {
 }
 
 ::selection {
-  background-color: black;
-  color: white;
+  background-color: rgba(175, 134, 134, 0);
+  color: rgb(82, 90, 209);
 }
 
