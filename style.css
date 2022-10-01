@@ -11,8 +11,8 @@
 }
 .headline {
   border-top: solid rgb(58, 64, 187);
-  margin: 0,1rem;
   font-size: larger;
+  border-inline: groove;
 }
 h1 {
     font-family: cursive;
