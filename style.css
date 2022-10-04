@@ -7,7 +7,7 @@
 
 * {
     font-family: monospace;
-    font-size: 20px;
+    font-size: 1.1rem;
 }
 .headline {
   border-top: solid rgb(58, 64, 187);
@@ -17,8 +17,9 @@
 }
 h1 {
     font-family: cursive;
-    font-size: 40px;
+    font-size: 3rem;
   }
+
 h1::after {
   content: '💻' ;
 }
@@ -26,30 +27,31 @@ h1::after {
 
 .badge {
   position: absolute;
-  top: 0.3rem;
+  top: 0.1rem;
   right: 0.5rem;
-  padding: 0.8rem;
-  border-radius: 0.4rem;
-  border-top: solid rgb(58, 64, 187);
-  color: black;
-  background-color: rgba(121, 122, 122, 0);
+  padding: 0.5rem;
+  padding-top: 0.5rem;
+  margin-top: 0.7rem;
+  border-top: solid;
+  border-radius: 0.5rem;
+  border-style: double;
 }
+
 
 h2,
 h3 {
     font-family: cursive;
-    font-size: 25px;
+    font-size: 2rem;
     color: #050542dc;
 }
 
 h4 {
     font-family: cursive;
-    font-size: 20px;
+    font-size: 3rem;
     color: #00008B;
 }
 
 body {
-    margin: 0px;
     background: rgb(238,197,174);
     background: rgb(34,193,195);
     background: rgb(125,138,144);
@@ -59,35 +61,21 @@ body {
 }
 
 .header {
-    padding: 50px 20px;
+    padding: 2.5rem 1rem;
     text-align: center;
-    font-size: 20px;
+    font-size: 2.5rem;
     border-top: solid rgb(58, 64, 187);
     }
- 
- 
-  
-
-.junior {
-    margin-bottom: 50px;
-    font-weight: bolder;
-}
 
 .main {
-    max-width: 800px;
+    max-width: 60rem;
     margin: 0 auto;
-    padding: 16px;
 }
 main > * {
   border-top: 2px dotted rgb(58, 64, 187);
 }
 .main > * + * {
-  margin-top: 10px;
-}
-
-
-.time {
-    color: #0000CD;
+  margin-top: 2.5rem;
 }
 
 .nav-link {
@@ -102,8 +90,9 @@ main > * {
   background-color: black;
 }
 
-.nav-link + .nav-link {
-  margin-left: 16px;
+.nav-link {
+  margin-left: 2.5rem;
+  font-size: 1.3rem;
 }
 
 p::first-letter {
