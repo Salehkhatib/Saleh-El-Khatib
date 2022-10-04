@@ -91,8 +91,9 @@ main > * {
 }
 
 .nav-link {
-  margin-left: 2.5rem;
-  font-size: 1.3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 1.2rem;
 }
 
 p::first-letter {
