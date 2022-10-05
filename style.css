@@ -36,7 +36,16 @@ h1::after {
   border-radius: 0.5rem;
   border-style: double;
 }
-
+@media screen and (min-width: 992px) {
+  .badge {
+    position: fixed;
+  }
+}
+@media print {
+  .badge {
+    display: none;
+  }
+}
 
 h2,
 h3 {
