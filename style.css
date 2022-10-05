@@ -48,6 +48,8 @@ h1::after {
   }
 }
 
+
+
 h2,
 h3 {
     font-family: cursive;
@@ -96,8 +98,8 @@ main > * {
     color: rgb(158, 18, 18);
 }
 .nav-link:active {
-  color: rgb(29, 29, 85);
-  background-color: black;
+  color: rgb(255, 0, 0);
+  background-color: rgba(188, 179, 179, 0.609);
 }
 
 .nav-link {
