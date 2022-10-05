@@ -98,7 +98,7 @@ main > * {
     color: rgb(158, 18, 18);
 }
 .nav-link:active {
-  color: rgb(255, 0, 0);
+  color: rgb(247, 247, 247);
   background-color: rgba(188, 179, 179, 0.609);
 }
 
