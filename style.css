@@ -41,6 +41,7 @@ h1::after {
     position: fixed;
   }
 }
+
 @media print {
   .badge {
     display: none;
