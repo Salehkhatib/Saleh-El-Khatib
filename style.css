@@ -107,7 +107,7 @@ main > * {
 }
 
 .nav-link:hover {
-    color: rgb(158, 18, 18);
+    color: rgb(244, 0, 0);
 }
 .nav-link:active {
   color: rgb(247, 247, 247);
@@ -134,9 +134,24 @@ li::first-letter {
 }
 
 .footer {
-  background-color: rgba(190, 195, 198, 0.407);
+  background-color: rgba(132, 132, 132, 0.407);
   border-top: solid rgba(22, 21, 20, 0.598);
 }
 .footer-link {
 color: black;
+}
+.footer-link:hover {
+  color: rgb(4, 12, 236);
+}
+.footer-link:active {
+color: rgb(255, 255, 255);
+}
+.info {
+  color: black;
+}
+.info:hover {
+  color: rgb(4, 12, 236);
+}
+.info:active {
+  color: rgb(255, 255, 255);
 }
