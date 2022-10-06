@@ -133,3 +133,10 @@ li::first-letter {
   color: rgba(198, 6, 6, 0.637);
 }
 
+.footer {
+  background-color: rgba(190, 195, 198, 0.407);
+  border-top: solid rgba(22, 21, 20, 0.598);
+}
+.footer-link {
+color: black;
+}
