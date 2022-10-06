@@ -28,7 +28,24 @@ h1::after {
   content: '💻' ;
 }
 
+.nav-link {
+  color: inherit;
+}
 
+.nav-link {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 1.2rem;
+}
+.navigation:hover {
+  color: aqua;
+}
+.nav-link:hover {
+  color: rgb(244, 0, 0);
+}
+.nav-link:active {
+  color: rgb(247, 247, 247);
+}
 .navigation {
   display: flex;
   flex-direction: column;
@@ -105,23 +122,6 @@ main > * {
   margin-top: 2.5rem;
 }
 
-.nav-link {
-  color: inherit;
-}
-
-.nav-link:hover {
-  color: rgb(244, 0, 0);
-}
-.nav-link:active {
-  color: rgb(247, 247, 247);
-  background-color: rgba(188, 179, 179, 0.609);
-}
-
-.nav-link {
-  margin-left: 1rem;
-  margin-right: 1rem;
-  font-size: 1.2rem;
-}
 
 p::first-letter {
   font-size: 150%;
@@ -137,7 +137,7 @@ li::first-letter {
 }
 
 .footer {
-  background-color: rgba(58, 252, 255, 0.154);
+  background-color: rgba(155, 198, 229, 0.154);
   border-top: solid rgba(22, 21, 20, 0.598);
 }
 .footer-link {
