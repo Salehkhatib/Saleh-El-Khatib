@@ -28,7 +28,7 @@ h1::after {
   content: '💻' ;
 }
 
-.nav-link {
+.nav-link{
   color: inherit;
 }
 .navigation:hover {
@@ -39,13 +39,9 @@ h1::after {
   margin-left: 1rem;
   margin-right: 1rem;
   font-size: 1.2rem;
-  transition: background-color 0.25s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
 }
-.nav-link:focus {
-  background-color: var(--accent-color);
-  outline-color: var(--accent-text-color);
-  outline-style: dotted;
-}
+
 
 .nav-link:visited {
   color: var(--accent-text-color);
@@ -155,11 +151,18 @@ li::first-letter {
 .footer-link {
 color: black;
 }
+
 .footer-link:hover {
   color: rgb(4, 12, 236);
 }
+
 .footer-link:active {
 color: rgb(255, 255, 255);
+}
+.footer-link:focus {
+  background-color: var(--accent-color);
+  outline-color: var(--accent-text-color);
+  outline-style: dotted;
 }
 .info {
   color: black;
@@ -169,4 +172,9 @@ color: rgb(255, 255, 255);
 }
 .info:active {
   color: rgb(255, 255, 255);
+}
+.info:focus {
+  background-color: var(--accent-color);
+  outline-color: var(--accent-text-color);
+  outline-style: dotted;
 }
