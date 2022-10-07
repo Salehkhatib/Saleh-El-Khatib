@@ -31,6 +31,9 @@ h1::after {
 .nav-link {
   color: inherit;
 }
+.navigation:hover {
+  color: aqua;
+}
 
 .nav-link {
   margin-left: 1rem;
@@ -42,11 +45,6 @@ h1::after {
   background-color: var(--accent-color);
   outline-color: var(--accent-text-color);
   outline-style: dotted;
-}
-
-nav-link:active {
-  background-color: var(--nav-link-active-bg-color);
-  color: var(--accent-text-color);
 }
 
 .nav-link:visited {
