@@ -39,11 +39,12 @@ h1::after {
   transition: background-color 0.5s ease-in-out;
 }
 
-
 .nav-link:visited {
   color: var(--accent-text-color);
 }
-
+.nav-link:hover {
+  color: rgb(251, 155, 0);
+}
 .nav-link:focus {
   background-color: var(--accent-color);
   outline-color: var(--accent-text-color);
