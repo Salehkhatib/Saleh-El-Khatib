@@ -36,15 +36,30 @@ h1::after {
   margin-left: 1rem;
   margin-right: 1rem;
   font-size: 1.2rem;
+  transition: background-color 0.25s ease-in-out;
 }
-.navigation:hover {
-  color: aqua;
+.nav-link:focus {
+  background-color: var(--accent-color);
+  outline-color: var(--accent-text-color);
+  outline-style: dotted;
 }
-.nav-link:hover {
-  color: rgb(244, 0, 0);
+
+nav-link:active {
+  background-color: var(--nav-link-active-bg-color);
+  color: var(--accent-text-color);
+}
+
+.nav-link:visited {
+  color: var(--accent-text-color);
+}
+
+.nav-link:focus {
+  background-color: var(--accent-color);
+  outline-color: var(--accent-text-color);
+  outline-style: dotted;
 }
 .nav-link:active {
-  color: rgb(247, 247, 247);
+  color: rgb(45, 35, 232);
 }
 .navigation {
   display: flex;
@@ -96,7 +111,6 @@ h4 {
     font-size: 3rem;
     color: #b7b7c93e;
 }
-
 
 body {
  background: radial-gradient(circle,
