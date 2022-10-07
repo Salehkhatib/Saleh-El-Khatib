@@ -67,7 +67,11 @@ h1::after {
   }
 }
 
-
+.header:hover .badge,
+.header:focus-within .badge {
+opacity: 1;
+transform: scale(1.5);
+}
 .badge {
   position: absolute;
   top: 0.1rem;
@@ -78,6 +82,10 @@ h1::after {
   border-top: solid;
   border-radius: 0.5rem;
   border-style: double;
+  opacity: 0.9;
+  background: var(--accent-color);
+  transform-origin: top right;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
 }
 @media screen and (min-width: 992px) {
   .badge {
