@@ -149,7 +149,7 @@ li::first-letter {
 
 ::selection {
   background-color: rgba(175, 134, 134, 0);
-  color: rgba(198, 6, 6, 0.637);
+  color: rgb(0, 255, 60);
 }
 
 .footer {
