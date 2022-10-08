@@ -42,13 +42,13 @@ h1::after {
 .nav-link:hover {
   color:rgba(255, 255, 255, 0.873);
   background-color: rgba(215, 164, 101, 0.598);
-  max-width: 130px;
+  max-width: 14s0px;
   border: none;
   border-radius: 4px;
   transition: .6s ease-in-out;
   transition-delay: .1s;
   opacity: 0.4s;
-  transform: scale(1.2);
+  transform: scale(1.4);
 }
 .nav-link:focus {
   background-color: var(--accent-color);
