@@ -36,14 +36,19 @@ h1::after {
   margin-left: 1rem;
   margin-right: 1rem;
   font-size: 1.2rem;
-  transition: background-color 0.5s ease-in-out;
 }
 
-.nav-link:visited {
-  color: var(--accent-text-color);
-}
+
 .nav-link:hover {
-  color: rgb(251, 155, 0);
+  color:rgba(255, 255, 255, 0.873);
+  background-color: rgba(215, 164, 101, 0.598);
+  max-width: 130px;
+  border: none;
+  border-radius: 4px;
+  transition: .6s ease-in-out;
+  transition-delay: .1s;
+  opacity: 0.4s;
+  transform: scale(1.2);
 }
 .nav-link:focus {
   background-color: var(--accent-color);
@@ -53,6 +58,7 @@ h1::after {
 .nav-link:active {
   color: rgb(45, 35, 232);
 }
+
 .navigation {
   display: flex;
   flex-direction: column;
@@ -81,7 +87,7 @@ transform: scale(1.5);
   border-radius: 0.5rem;
   border-style: double;
   opacity: 0.9;
-  background: var(--accent-color);
+  background-color: rgb(255, 216, 157);
   transform-origin: top right;
   transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
 }
@@ -96,8 +102,6 @@ transform: scale(1.5);
     display: none;
   }
 }
-
-
 
 h2,
 h3 {
