@@ -168,7 +168,7 @@ text-decoration: none;
 .footer-link:hover {
   color: rgb(255, 255, 255);
   background-color: rgba(207, 152, 33, 0.386);
-  max-width: 14s0px;
+  width: 140px;
   border: none;
   border-radius: 4px;
   transition: .6s ease-in-out;
@@ -196,17 +196,18 @@ color: rgb(255, 255, 255);
   max-width: 140px;
   border: none;
   border-radius: 4px;
-  transition: .6s;
+  transition: .6s ease-in-out;
   transition-delay: .1s;
   opacity: 0.4s;
-  transform: scaleX(1.4);
+  transform: scale(1.4);
   text-decoration-line: underline;
-}
-.info:active {
-  color: rgb(255, 255, 255);
 }
 .info:focus {
   background-color: var(--accent-color);
   outline-color: var(--accent-text-color);
-  outline-style: dotted;
+  outline-style: ridge;
 }
+.info:active {
+  color: rgb(255, 255, 255);
+}
+
