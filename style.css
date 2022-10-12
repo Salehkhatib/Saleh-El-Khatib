@@ -41,7 +41,7 @@ h1::after {
 
 
 .nav-link:hover {
-  color:rgb(12, 0, 246);
+  color:rgb(21, 24, 24);
   background-color: rgba(243, 206, 160, 0.598);
   max-width: 140px;
   border: none;
