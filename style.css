@@ -116,7 +116,7 @@ h3 {
 h4 {
     font-family: cursive;
     font-size: 3rem;
-    color: #b7b7c93e;
+    color: #0000003e;
 }
 
 body {
@@ -132,6 +132,20 @@ body {
     border-top: solid rgb(8, 8, 16);
     }
 
+
+@media screen and (min-width: 768px) {
+  .main {
+    max-width: 80ch;
+    grid-template-columns: 1fr 2.5fr;
+  }
+
+  .main-article-content {
+    margin-top: 4rem;
+  }
+.main-article-heading {
+  position: relative;
+  left: -2rem;
+}
 .main {
     max-width: 60ch;
     margin: 0 auto;
@@ -139,8 +153,13 @@ body {
 main > * {
   border-top: 2px dotted rgba(16, 16, 23, 0.729);
 }
+
 .main > * + * {
-  margin-top: 2.5rem;
+  margin-top: 2.5rem; 
+}
+
+_.main > *:first-child {
+ margin-top: 4rem; 
 }
 
 
@@ -187,6 +206,8 @@ color: rgb(255, 255, 255);
   outline-color: var(--accent-text-color);
   outline-style: dotted;
 }
+
+
 .info {
   color: black;
   text-decoration: none;
