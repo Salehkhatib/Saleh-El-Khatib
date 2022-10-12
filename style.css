@@ -133,7 +133,7 @@ body {
     }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 268px) {
   .main {
     max-width: 80ch;
     grid-template-columns: 1fr 2.5fr;
