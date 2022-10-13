@@ -149,10 +149,11 @@ body {
       margin-top: 4rem;
     }
   }
- 
+}
+
 .main-article-heading {
   position: relative;
-  left: -1rem;
+  left: 1rem;
 }
 .main {
     max-width: 60ch;
@@ -170,6 +171,7 @@ main > * {
   .main > * + * {
     margin-top: 3rem;
   }
+}
 
   .main > *:first-child {
  margin-top: 2rem; 
@@ -215,8 +217,8 @@ text-decoration: none;
 color: rgb(255, 255, 255);
 }
 .footer-link:focus {
-  background-color: var(--accent-color);
-  outline-color: var(--accent-text-color);
+  background-color: rgb(252, 216, 163));
+  outline-color: white;
   outline-style: dotted;
 }
 
@@ -246,5 +248,3 @@ color: rgb(255, 255, 255);
   outline-color: var(--accent-text-color);
   outline-style: ridge;
 }
-
-
