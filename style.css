@@ -133,12 +133,23 @@ body {
     }
 
 
-@media screen and (min-width: 268px) {
+@media screen and (min-width: 768px) {
   .main {
     max-width: 80ch;
-    grid-template-columns: 1fr 2.5fr;
+   
   }
 
+  @media screen and (min-width: 768px) {
+    .main-article {
+      display: grid;
+      grid-template-columns: 1fr 2.5fr;
+    }
+  
+    .main-article-content {
+      margin-top: 4rem;
+    }
+  }
+ 
   .main-article-content {
     margin-top: 4rem;
   }
@@ -158,8 +169,13 @@ main > * {
   margin-top: 2.5rem; 
 }
 
-_.main > *:first-child {
- margin-top: 4rem; 
+@media screen and (min-width: 768px) {
+  .main > * + * {
+    margin-top: 3rem;
+  }
+
+  .main > *:first-child {
+ margin-top: 2rem; 
 }
 
 
