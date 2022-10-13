@@ -136,14 +136,14 @@ body {
 @media screen and (min-width: 768px) {
   .main {
     max-width: 80ch;
-   
-  }
+   }
 
   @media screen and (min-width: 768px) {
     .main-article {
       display: grid;
-      grid-template-columns: 1.5fr 2.5fr;
-    }
+      grid-template-columns: 1.5fr 2.8fr;
+      }
+
   
     .main-article-content {
       margin-top: 4rem;
