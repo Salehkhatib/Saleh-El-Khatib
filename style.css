@@ -142,7 +142,7 @@ body {
   @media screen and (min-width: 768px) {
     .main-article {
       display: grid;
-      grid-template-columns: 1fr 2.5fr;
+      grid-template-columns: 1.5fr 2.5fr;
     }
   
     .main-article-content {
@@ -150,9 +150,6 @@ body {
     }
   }
  
-  .main-article-content {
-    margin-top: 4rem;
-  }
 .main-article-heading {
   position: relative;
   left: -1rem;
@@ -232,6 +229,7 @@ color: rgb(255, 255, 255);
   color: rgb(255, 255, 255);
   background-color: rgba(96, 220, 237, 0.386);
   max-width: 140px;
+  
   border: none;
   border-radius: 4px;
   transition: .6s ease-in-out;
